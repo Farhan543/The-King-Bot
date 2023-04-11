@@ -1,7 +1,7 @@
 
 # King Bot
 
-The King is a discord bot is a slash command enabled, small project made for interacting with ChatGPT(OpenAI api) and setting reminders.
+The King is a discord bot is a slash command enabled, small project made for interacting with ChatGPT(OpenAI api), setting reminders and playing music.
 
 
 

@@ -7,6 +7,7 @@ from datetime import datetime
 from dotenv import load_dotenv
 import openai
 import os
+
 client = commands.Bot(command_prefix="!",intents=discord.Intents.all())
 
 @client.event
