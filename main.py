@@ -14,7 +14,7 @@ discord_token=os.getenv("DISCORD_TOKEN")
 class Client(commands.Bot):
     def __init__(self):
         super().__init__(command_prefix=commands.when_mentioned_or('!'),intents=discord.Intents.all())
-        self.coglist = ["Cogs.userinfo","Cogs.serverinfo","Cogs.shutdown","Cogs.chat"]
+        self.coglist = ["Cogs.userinfo","Cogs.serverinfo","Cogs.shutdown","Cogs.chat","Cogs.reminder"]
 
     async def setup_hook(self):
         for ext in self.coglist:
