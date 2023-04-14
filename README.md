@@ -13,6 +13,16 @@ The King is a discord bot is a slash command enabled, small project made for int
 - Play, Pause and skip songs from Youtube (upcoming feature).
 
 
+
+## Commands List
+
+/serverinfo - Gives complete info about the server
+/userinfo <mention-user>(optional) - Gives user-info of the mentioned member. If empty, then gives user-info of user who runs the command.
+/chat <prompt> - Allows user to chat with ChatGPT
+/reminder <message> <date>(YYYY-MM-DD format) <time>(HH-MM-SS 24-hour format ) -  Allows user to set a spectific reminder for a future date.
+
+
+
 ## Steps in this project
 
 After Each Step is complete it will be completed a ✅ will be added next to it.
@@ -27,7 +37,7 @@ Seperating the commands from main.py using cogs to organize the code.
 
 #### -> Setting up reminder commands
 
-First will be adding a reminder
+First will be adding a reminder ✅
 Second will be to modify the reminder
 Third will be to delete the reminder
 
